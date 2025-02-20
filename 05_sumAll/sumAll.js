@@ -1,5 +1,5 @@
 function checkLegality (el) {
-    if (isNaN(el) || 
+    if ((typeof(el) != "number") || 
     (el < 0) ||
     ((el % 1) != 0))     
     return true;
