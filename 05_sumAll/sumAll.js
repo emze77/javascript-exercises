@@ -2,12 +2,12 @@ function checkLegality (el) {
     if (isNaN(el) || 
     (el < 0) ||
     ((el % 1) != 0))     
-    return 0;
+    return true;
 }
 
 const sumAll = function(arg1, arg2) {
-    if ((checkLegality(arg1) === 0) ||
-        (checkLegality(arg2) === 0))
+    if (checkLegality(arg1) ||
+        checkLegality(arg2))
         return "ERROR";
 
     const higherNumber = Math.max(arg1, arg2);
