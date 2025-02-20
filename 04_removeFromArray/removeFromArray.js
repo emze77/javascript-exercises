@@ -7,7 +7,7 @@ const removeFromArray = function(inputArray, ...deleteParameters) {
             inputArray.splice(position, 1);
             position = inputArray.indexOf(x);
         // kurzer Git -Test
-        // GIT 
+        // GIT !
         } 
     }
     return inputArray;
