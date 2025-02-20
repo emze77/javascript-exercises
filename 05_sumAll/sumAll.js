@@ -9,7 +9,6 @@ const sumAll = function(arg1, arg2) {
     if (checkLegality(arg1) ||
         checkLegality(arg2))
         return "ERROR";
-
     const higherNumber = Math.max(arg1, arg2);
     const lowerNumber = Math.min(arg1, arg2);
     let sum = 0;
