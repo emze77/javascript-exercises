@@ -6,8 +6,6 @@ const removeFromArray = function(inputArray, ...deleteParameters) {
         while (position > -1) {
             inputArray.splice(position, 1);
             position = inputArray.indexOf(x);
-        // kurzer Git -Test
-        // GIT !
         } 
     }
     return inputArray;
